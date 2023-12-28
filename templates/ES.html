@@ -1,0 +1,274 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Kiran kumar</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/11.1.0/octicons.min.css">
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/fontawesome-free/css/all.min.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css'%}" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="{% static 'vendor/aos/aos.css'%}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/main.css'%}" rel="stylesheet">
+ 
+
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="{% url 'index' %}" class="active">Home</a></li>
+          <li><a class="nav-link scrollto" href="#project">Projects</a></li>
+          <li><a href = "{% url 'resume' %}" class = "axtive">Resume</a></li>
+          <a href="https://github.com/Astroweb3" class="facebook"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/kiran-kumar-643b3625a/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.instagram.com/___.kiran.______/" class="instagram"><i class="bi bi-instagram"></i></a>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+   
+  <main id="main">
+    <div class="section-header">
+
+      <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li>EXAM SEATING SOFTWARE</li>
+        </ol>
+        <h2>EXAM SEATING SOFTWARE</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-2">
+
+          <div class="col-lg-5">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="{% static 'es/es.png'%}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{% static 'es/notice.png'%}" alt="">
+                </div>
+
+                <div class="swiper-slide">``
+                  <img src="{% static 'es/qp.png'%}" alt="">
+                </div>
+
+                <div class="swiper-slide">``
+                  <img src="{% static 'es/seating.png'%}" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Windows Application</li>
+                <li><strong>Client</strong>: Patrician College of Arts and Science</li>
+                <li><strong>Project date</strong>: Aug,2019 – Jan,2020</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/Astroweb3/ESA.git">https://github.com/Astroweb3/ESA.git</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Exam Seating Software | Windows, Python [Tkinter, Pandas, numpy, xlsxwriter]</h2>
+              <p>
+                Implemented Windows software to allocate a seat for students for exams in the exam hall without placing
+one and another with same exam together in excel format. This software will execute this process with the help of
+user input of no of seating in a hall and list of students and subjects in excel to the software.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+          <div class="col-md-5 order-1 order-md-2">
+            <img src="{% static "es/es1.png" %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1">
+            <h3>EXAM SEATING SOFTWARE</h3>
+            <p>
+              The Exam Seating Management System (ESMS) is a comprehensive desktop application developed using Python and Tkinter, tailored to optimize the intricate process of student seating during examinations. By intelligently processing student and hall details from Excel files, ESMS generates three distinct reports—Notice Board Report, Question Paper Report, and Seating Report—streamlining the administrative workflow and enhancing the overall efficiency of examination management.
+            </p>
+          </div>
+        </div><!-- Features Item -->
+        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+
+          <div class="col-md-5">
+            <img src="{% static "es/qp1.png" %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7">
+            <h3>NO OF QUESTION PAPER REPORT</h3>
+          
+            <ul>
+              <li><i class="bi bi-check"></i> Provides staff members with the necessary information to determine the required number of question papers for each room.</li>
+              <li><i class="bi bi-check"></i> Ensures efficient distribution of question papers based on the seating arrangement.</li>
+           
+           
+            </ul>
+          </div>
+        </div><!-- Features Item -->
+
+
+        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+          <div class="col-md-5 order-1 order-md-2">
+            <img src="{% static "es/notice1.png" %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1">
+            <h3>NOTICE BORD REPORT </h3>
+            
+            <ul>
+              
+              <li><i class="bi bi-check"></i> A concise summary of seating information for students, including room number and seat allocation.</li>
+              <li><i class="bi bi-check"></i> Tailored for easy display on notice boards, facilitating swift communication of seating arrangements to students.</li>
+              
+            </ul>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+
+          <div class="col-md-5">
+            <img src="{% static "es/seating1.png" %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7">
+            <h3>SEATING REPORT</h3>
+            
+            <ul>
+              <li><i class="bi bi-check"></i>Detailed report for staff members containing comprehensive seating information.</li>
+              <li><i class="bi bi-check"></i>Includes student name, registration number, room number, subject code, and seat number.</li>
+              <li><i class="bi bi-check"></i> Facilitates easy monitoring and management of the examination seating arrangement.</li>
+          
+            </ul>
+          </div>
+        </div><!-- Features Item -->
+
+ 
+    </section><!-- End Features Section -->
+
+
+
+
+  </main><!-- End #main -->
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-3 col-md-6 footer-info">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <span>Kiran Kumar.L</span>
+        </a>
+        <p>MSc in Computer Science</p>
+        <div class="social-links d-flex mt-4">
+          
+        <a href="https://github.com/Astroweb3" class="facebook"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/kiran-kumar-643b3625a/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/___.kiran.______/" class="instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-6 footer-links">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="{% url "index" %}">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="{% url "resume" %}">Resume</a></li>
+          <li><a href="#Projects">Project</a></li>
+          <li><a href= "{% url 'contact' %}">Contact</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-lg-4 col-md-12 footer-contact text-center text-md-start">
+        <h4>Contact</h4>
+        <p>
+          21/10 Murugasen Street <br>
+          Shenoy Nagar<br>
+          Chennai-30 <br><br>
+          <strong>Phone:</strong> +91 8838463421<br>
+          <strong>Email:</strong> kirankumarr1901@gmail.com<br>
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+
+  
+
+</footer><!-- End Footer -->
+<!-- End Footer -->
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+<script src="{% static 'vendor/purecounter/purecounter_vanilla.js'%}"></script>
+<script src="{% static 'vendor/glightbox/js/glightbox.min.js'%}"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="{% static 'vendor/aos/aos.js'%}"></script>
+<script src="{% static 'vendor/php-email-form/validate.js'%}"></script>
+
+
+<!-- Template Main JS File -->
+<script src = "{% static 'js/main.js' %}"></script>
+<script src="{% static 'an/js/main.js'%}"></script>
+
+
+</body>
+
+</html>
